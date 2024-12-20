@@ -1,0 +1,25 @@
+QWidget {
+    background-color: #121212; /* Тёмный фон */
+    color: #FFFFFF; /* Белый текст */
+}
+QPushButton {
+    background-color: #1E1E1E;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    padding: 5px;
+}
+QPushButton:hover {
+    background-color: #575757;
+}
+QLineEdit, QComboBox {
+    background-color: #1E1E1E;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 3px;
+}
+QTableWidget {
+    background-color: #1E1E1E;
+    color: #FFFFFF;
+    gridline-color: #575757;
+}

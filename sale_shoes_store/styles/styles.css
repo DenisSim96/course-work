@@ -1,0 +1,18 @@
+QPushButton {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+}
+QPushButton:hover {
+    background-color: #45A049;
+}
+QTableWidget {
+    border: 1px solid #CCCCCC;
+    background-color: #F9F9F9;
+    gridline-color: #CCCCCC;
+}
+QTableWidget::item {
+    padding: 5px;
+}
