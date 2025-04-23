@@ -4,7 +4,7 @@ from PyQt6.QtWidgets import QMainWindow, QVBoxLayout, QPushButton, QWidget, QMes
 from PyQt6.QtCore import Qt, QSize, QFile, QTextStream
 
 from view_image import ImageViewer
-
+# Внесенные изменения
 class MainWindow(QMainWindow):
     def __init__(self, db, user):
         super().__init__()
